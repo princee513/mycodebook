@@ -13,7 +13,14 @@ public class Main {
                     System.out.print(" ");
                 }
                 int ans = i * j;
-                System.out.print(ans+ " ");
+                if( j == 9 )
+                {
+                    System.out.print(ans);
+                }
+                else
+                {
+                    System.out.print( ans+ " " );
+                }
             }
             System.out.println();
         }
