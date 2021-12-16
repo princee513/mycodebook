@@ -46,7 +46,7 @@ public class Main {
             System.out.println("(" + p[0].x + "," + p[0].y + ")");
             for(int i = 1 ; i < n ; i++){
                 System.out.println("(" + p[i].x + "," + p[i].y + ")");
-                if(p[i].x + p[i].y > max_num){
+                if(p[i].x + p[i].y >= max_num){
                     max = i;
                     max_num = p[i].x + p[i].y;
                 }
